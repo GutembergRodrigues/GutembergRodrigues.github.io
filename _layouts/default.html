@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="navbar-container">
+        <div class="logo">{{ site.title }}</div>
+        <nav>
+          <a class="active" href="#">Home</a>
+          <a href="#dashboards">Dashboards</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
+
+        <div class="hero-buttons">
+          <a href="#dashboards" class="btn primary">📊 Ver Dashboards</a>
+          <a href="#contato" class="btn secondary">✉️ Entre em Contato</a>
+        </div>
+      </div>
+    </section>
+
+    <main class="page-content">
+      {{ content }}
+    </main>
+  </body>
+</html>
 
