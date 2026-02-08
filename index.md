@@ -1,67 +1,85 @@
----
-layout: default
-title: Home
----
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>André Lopes | Data Science & Analytics</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
 
-<section id="ferramentas" class="section">
-  <div class="container">
-    <h2 class="section-title">Ferramentas</h2>
-    <div class="section-underline"></div>
-
-    <div class="cards">
-      <!-- Card 1 -->
-      <article class="card">
-        <div class="card-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M3 3v18h18"/>
-            <path d="M7 14l4-4 4 3 5-7"/>
-          </svg>
-        </div>
-
-        <h3>Analytics & BI</h3>
-
-        <div class="chips">
-          <span class="chip">Power BI</span>
-          <span class="chip">Looker Studio</span>
-          <span class="chip">Storytelling</span>
-        </div>
-      </article>
-
-      <!-- Card 2 -->
-      <article class="card">
-        <div class="card-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M16 18l6-6-6-6"/>
-            <path d="M8 6l-6 6 6 6"/>
-            <path d="M14 4l-4 16"/>
-          </svg>
-        </div>
-
-        <h3>Programação</h3>
-
-        <div class="chips">
-          <span class="chip">Python</span>
-          <span class="chip">Spark</span>
-          <span class="chip">SQL</span>
-        </div>
-      </article>
-
-      <!-- Card 3 -->
-      <article class="card">
-        <div class="card-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M20 17.5a4.5 4.5 0 0 0-2-8.4A6 6 0 0 0 6.2 10.5 3.5 3.5 0 0 0 7 17.5z"/>
-          </svg>
-        </div>
-
-        <h3>Cloud & Data</h3>
-
-        <div class="chips">
-          <span class="chip">Google BigQuery</span>
-          <span class="chip">Databricks</span>
-          <span class="chip">dbt</span>
-        </div>
-      </article>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">André Lopes</div>
+      <nav class="nav">
+        <a class="nav__link is-active" href="#">Home</a>
+        <a class="nav__link" href="#dashboards">Dashboards</a>
+        <a class="nav__link" href="#sobre">Sobre</a>
+        <a class="nav__link" href="#contato">Contato</a>
+      </nav>
     </div>
-  </div>
-</section>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <h1>André Lopes</h1>
+        <p class="subtitle">Data Science & Analytics</p>
+
+        <div class="hero__actions">
+          <a class="btn btn--light" href="#dashboards">Ver Dashboards</a>
+          <a class="btn btn--dark" href="#contato">Entre em Contato</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ferramentas">
+      <div class="container">
+        <h2 class="section__title">Ferramentas</h2>
+        <div class="section__underline"></div>
+
+        <div class="grid">
+          <article class="card">
+            <div class="card__icon">📈</div>
+            <h3>Analytics & BI</h3>
+            <div class="tags">
+              <span class="tag">Power BI</span>
+              <span class="tag">Looker Studio</span>
+              <span class="tag">Storytelling</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">💻</div>
+            <h3>Programação</h3>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Spark</span>
+              <span class="tag">SQL</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">☁️</div>
+            <h3>Cloud & Data</h3>
+            <div class="tags">
+              <span class="tag">BigQuery</span>
+              <span class="tag">Databricks</span>
+              <span class="tag">dbt</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <div class="container">
+        <h2 class="section__title">Contato</h2>
+        <div class="section__underline"></div>
+        <p>Coloque aqui seus links: LinkedIn, e-mail, GitHub, etc.</p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
