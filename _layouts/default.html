@@ -6,6 +6,12 @@
     <title>{{ page.title }} | {{ site.title }}</title>
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
 
   <body>
@@ -103,20 +109,32 @@
       </section>
     </main>
 
-    <!-- FOOTER (adaptado do seu 2º código) -->
+    <!-- FOOTER (com Font Awesome) -->
     <footer class="site-footer" id="footer">
       <div class="container site-footer__inner">
         <div class="site-footer__social">
-          <a class="site-footer__icon" href="https://www.linkedin.com/in/SEU_PERFIL" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-            in
+          <a
+            class="site-footer__icon"
+            href="https://www.linkedin.com/in/SEU_PERFIL"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
           </a>
 
-          <a class="site-footer__icon" href="https://github.com/SEU_USUARIO" target="_blank" rel="noreferrer" aria-label="GitHub">
-            ⌂
+          <a
+            class="site-footer__icon"
+            href="https://github.com/SEU_USUARIO"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
           </a>
 
           <a class="site-footer__icon" href="mailto:seuemail@exemplo.com" aria-label="E-mail">
-            ✉
+            <i class="fa-regular fa-envelope"></i>
           </a>
         </div>
 
@@ -125,6 +143,5 @@
         </div>
       </div>
     </footer>
-
   </body>
 </html>
