@@ -170,7 +170,7 @@ a{ color:inherit; text-decoration:none; }
   opacity: .9;
 }
 
-/* PROJECTS (colado do 2º código no 1º) */
+/* PROJECTS (base) */
 .projects{
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -260,4 +260,106 @@ a{ color:inherit; text-decoration:none; }
 @media (max-width: 980px){
   .projects{ grid-template-columns: 1fr; }
   .project-card__media{ height: 190px; }
+}
+
+/* ===== Projetos em Evidência (forçado para ficar igual ao print) ===== */
+/* (cole no FINAL — aqui já está no final) */
+
+.section#dashboards{
+  background: #fff;
+}
+
+.section#dashboards .projects{
+  margin-top: 26px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 26px;
+}
+
+.section#dashboards article.project-card{
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,.08);
+  box-shadow: 0 10px 28px rgba(0,0,0,.10);
+}
+
+.section#dashboards .project-card__media{
+  height: 140px;              /* <<< DIMINUI A IMAGEM (igual ao print) */
+  background: #f2f2f2;
+}
+
+.section#dashboards .project-card__media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.section#dashboards .project-card__body{
+  padding: 18px 20px 20px;
+}
+
+.section#dashboards .project-card__title{
+  margin: 6px 0 10px;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 800;
+}
+
+.section#dashboards .project-card__desc{
+  margin: 0 0 14px;
+  font-size: 14px;
+  line-height: 1.65;
+  color: rgba(0,0,0,.65);
+}
+
+.section#dashboards .project-card__tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 14px;
+}
+
+.section#dashboards .pill{
+  display: inline-flex;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: rgba(0,0,0,.06);
+  color: rgba(0,0,0,.70);
+  font-weight: 600;
+}
+
+.section#dashboards .project-card__links{
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.section#dashboards .plink{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(0,0,0,.78);
+}
+
+.section#dashboards .plink i{
+  font-size: 14px;
+}
+
+.section#dashboards .plink:hover{
+  text-decoration: underline;
+}
+
+@media (max-width: 980px){
+  .section#dashboards .projects{
+    grid-template-columns: 1fr;
+  }
+  .section#dashboards .project-card__media{
+    height: 170px;
+  }
 }
