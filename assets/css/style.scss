@@ -363,3 +363,13 @@ a{ color:inherit; text-decoration:none; }
     height: 170px;
   }
 }
+/* Centralizar os links (Github/Power BI/Medium/Slides etc) no rodapé de TODOS os cards */
+.project-card__links{
+  display: flex;
+  justify-content: center; /* <-- centraliza */
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
