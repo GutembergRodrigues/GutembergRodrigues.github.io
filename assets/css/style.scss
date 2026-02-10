@@ -89,6 +89,12 @@ a{ color:inherit; text-decoration:none; }
   opacity:.9;
 }
 
+/* ✅ SUBIR TECNOLOGIAS (menos espaço antes do #ferramentas) */
+.section#ferramentas{
+  padding-top: 40px;   /* antes era 80px (pela .section) */
+  margin-top: -10px;   /* puxa um pouco pra cima (ajuste se quiser -20, -30...) */
+}
+
 .grid{
   display:grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -214,8 +220,11 @@ a{ color:inherit; text-decoration:none; }
   line-height: 1.65;
 }
 
+/* ✅ CENTRALIZA TAGS EM TODOS OS CARDS */
 .project-card__tags{
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 14px;
@@ -231,11 +240,14 @@ a{ color:inherit; text-decoration:none; }
   font-weight: 600;
 }
 
+/* ✅ CENTRALIZA LINKS EM TODOS OS CARDS */
 .project-card__links{
   display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .plink{
@@ -260,10 +272,15 @@ a{ color:inherit; text-decoration:none; }
 @media (max-width: 980px){
   .projects{ grid-template-columns: 1fr; }
   .project-card__media{ height: 190px; }
+
+  /* mobile: puxa tecnologias um pouco menos */
+  .section#ferramentas{
+    margin-top: 0;
+    padding-top: 30px;
+  }
 }
 
 /* ===== Projetos em Evidência (forçado para ficar igual ao print) ===== */
-/* (cole no FINAL — aqui já está no final) */
 
 .section#dashboards{
   background: #fff;
@@ -285,7 +302,7 @@ a{ color:inherit; text-decoration:none; }
 }
 
 .section#dashboards .project-card__media{
-  height: 140px;              /* <<< DIMINUI A IMAGEM (igual ao print) */
+  height: 140px;
   background: #f2f2f2;
 }
 
@@ -316,6 +333,7 @@ a{ color:inherit; text-decoration:none; }
 
 .section#dashboards .project-card__tags{
   display: flex;
+  justify-content: center;  /* ✅ garante centralização */
   flex-wrap: wrap;
   gap: 10px;
   margin: 0 0 14px;
@@ -333,6 +351,7 @@ a{ color:inherit; text-decoration:none; }
 
 .section#dashboards .project-card__links{
   display: flex;
+  justify-content: center; /* ✅ garante centralização */
   gap: 18px;
   flex-wrap: wrap;
   align-items: center;
@@ -363,43 +382,15 @@ a{ color:inherit; text-decoration:none; }
     height: 170px;
   }
 }
-/* Centralizar os links (Github/Power BI/Medium/Slides etc) no rodapé de TODOS os cards */
-.project-card__links{
-  display: flex;
-  justify-content: center; /* <-- centraliza */
-  align-items: center;
-  gap: 18px;
-  flex-wrap: wrap;
-  width: 100%;
-}
-/* Corrige ícones de marca (LinkedIn, GitHub, Medium) dentro dos links dos cards */
+
+/* ✅ CORRIGE ÍCONES DE MARCAS (LinkedIn, GitHub, Medium) */
 .project-card__links .fa-brands{
   font-family: "Font Awesome 6 Brands" !important;
   font-weight: 400 !important;
 }
 
-/* Mantém ícones solid funcionando normalmente */
+/* ✅ Mantém ícones solid/regular ok */
 .project-card__links .fa-solid,
 .project-card__links .fa-regular{
   font-family: "Font Awesome 6 Free" !important;
 }
-
-/* Centraliza as tags (Python, Excel, Google Colab etc.) em todos os cards */
-.project-card__tags{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-/* Centraliza os links (Github, LinkedIn, Medium, Resultados etc.) em todos os cards */
-.project-card__links{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 18px;
-}
-
-
