@@ -411,3 +411,16 @@ a{ color:inherit; text-decoration:none; }
 .section#ferramentas .section__underline{
   margin: 10px auto 22px !important; /* era 12px auto 44px */
 }
+  html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* empurra o footer para o fundo */
+}
+
