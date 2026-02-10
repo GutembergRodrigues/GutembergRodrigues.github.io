@@ -473,6 +473,22 @@ main{
 .dashboards-page .dashboards-grid{
   margin-top: 10px;
 }
+/* ===== Dashboards page: subir conteúdo ===== */
+.dashboards-page.section{
+  padding-top: 40px;   /* antes era 80px (do .section) */
+  padding-bottom: 60px;
+}
+
+.dashboards-page .page-head{
+  margin-top: -10px;   /* empurra tudo um pouco pra cima */
+}
+
+.dashboards-page .dashboards-page__subtitle{
+  margin-top: 8px;
+  margin-bottom: 24px; /* aproxima do card */
+  text-align: center;
+}
+
 
 
 
