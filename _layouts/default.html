@@ -19,9 +19,12 @@
       <div class="container topbar__inner">
         <div class="brand">{{ site.title }}</div>
 
+        <!-- ✅ CORREÇÃO: Sobre/Contato viram páginas -->
         <nav class="nav">
           <a class="nav__link is-active" href="{{ '/' | relative_url }}">Home</a>
           <a class="nav__link" href="{{ '/#dashboards' | relative_url }}">Dashboards</a>
+          <a class="nav__link" href="{{ '/sobre/' | relative_url }}">Sobre</a>
+          <a class="nav__link" href="{{ '/contato/' | relative_url }}">Contato</a>
         </nav>
       </div>
     </header>
@@ -34,7 +37,9 @@
 
           <div class="hero__actions">
             <a class="btn btn--light" href="{{ '/#dashboards' | relative_url }}">Ver Dashboards</a>
-            <!-- Removi o botão "Entre em Contato" pois você pediu para tirar a seção contato -->
+
+            <!-- ✅ CORREÇÃO: botão agora aponta pra página /contato/ -->
+            <a class="btn btn--dark" href="{{ '/contato/' | relative_url }}">Entre em Contato</a>
           </div>
         </div>
       </section>
@@ -217,14 +222,15 @@
                 </div>
               </div>
             </article>
-
           </div>
         </div>
       </section>
+
+      <!-- ✅ CORREÇÃO: removi as seções Sobre e Contato da HOME -->
     </main>
 
-    <!-- FOOTER (mantido) -->
-    <footer class="site-footer" id="contato">
+    <!-- FOOTER -->
+    <footer class="site-footer">
       <div class="site-footer__inner">
         <div class="site-footer__social">
           <a class="site-footer__icon" href="https://www.linkedin.com/in/gutemberganalista/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
