@@ -22,8 +22,6 @@
         <nav class="nav">
           <a class="nav__link is-active" href="{{ '/' | relative_url }}">Home</a>
           <a class="nav__link" href="{{ '/#dashboards' | relative_url }}">Dashboards</a>
-          <a class="nav__link" href="{{ '/#sobre' | relative_url }}">Sobre</a>
-          <a class="nav__link" href="{{ '/#contato' | relative_url }}">Contato</a>
         </nav>
       </div>
     </header>
@@ -36,7 +34,7 @@
 
           <div class="hero__actions">
             <a class="btn btn--light" href="{{ '/#dashboards' | relative_url }}">Ver Dashboards</a>
-            <a class="btn btn--dark" href="{{ '/#contato' | relative_url }}">Entre em Contato</a>
+            <!-- Removi o botão "Entre em Contato" pois você pediu para tirar a seção contato -->
           </div>
         </div>
       </section>
@@ -87,7 +85,7 @@
           <div class="section__underline"></div>
 
           <div class="projects">
-            <!-- Card 1 (Bicicletas / itens para bicicleta) -->
+            <!-- Card 1 -->
             <article class="project-card">
               <div class="project-card__media">
                 <img
@@ -114,7 +112,6 @@
                     <i class="fa-brands fa-medium"></i><span>Medium</span>
                   </a>
 
-                  <!-- ✅ ALTERADO: ícone e texto para Slides -->
                   <a class="plink" href="https://docs.google.com/presentation/d/1u8ewhLPLjLS27zzdUUxF1TpliKHAZ0U4AqpS3LCCVOM/edit?usp=sharing" target="_blank" rel="noreferrer">
                     <i class="fa-solid fa-file-powerpoint"></i><span>Resultados</span>
                   </a>
@@ -122,7 +119,7 @@
               </div>
             </article>
 
-            <!-- Card 2 (Incêndios florestais) -->
+            <!-- Card 2 -->
             <article class="project-card">
               <div class="project-card__media">
                 <img
@@ -188,7 +185,7 @@
               </div>
             </article>
 
-            <!-- Card 4 (Champions League) -->
+            <!-- Card 4 -->
             <article class="project-card">
               <div class="project-card__media">
                 <img
@@ -220,32 +217,13 @@
                 </div>
               </div>
             </article>
-          </div>
-        </div>
-      </section>
 
-      <section class="section" id="sobre">
-        <div class="container">
-          <h2 class="section__title">Sobre</h2>
-          <div class="section__underline"></div>
-          <p>Um resumo sobre você aqui.</p>
-        </div>
-      </section>
-
-      <section class="section" id="contato">
-        <div class="container">
-          <h2 class="section__title">Contato</h2>
-          <div class="section__underline"></div>
-
-          <div class="contact">
-            <a class="btn btn--light" href="mailto:seuemail@exemplo.com">Enviar e-mail</a>
-            <a class="btn btn--dark" href="https://www.linkedin.com/in/seu-perfil/" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </div>
       </section>
     </main>
 
-    <!-- FOOTER -->
+    <!-- FOOTER (mantido) -->
     <footer class="site-footer" id="contato">
       <div class="site-footer__inner">
         <div class="site-footer__social">
