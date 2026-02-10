@@ -488,6 +488,16 @@ main{
   margin-bottom: 24px; /* aproxima do card */
   text-align: center;
 }
+/* Dashboards: mostrar a imagem inteira (sem cortar) */
+.dashboards-page .project-card__media{
+  height: 220px;          /* pode ajustar: 200, 230... */
+  background: #000;       /* cor atrás da imagem (fica bonito com a estatueta) */
+}
+
+.dashboards-page .project-card__media img{
+  object-fit: contain;    /* mostra a imagem inteira */
+  object-position: center;
+}
 
 
 
