@@ -21,7 +21,7 @@ permalink: /dashboards/
       <article class="project-card">
         <div class="project-card__media">
           <img
-            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&fm=jpg&q=80&w=1200"
+            src="https://unsplash.com/photos/EsgP6wNzdBo/download?force=true&w=1200"
             alt="Dashboard de Vendas e Performance"
             loading="lazy"
           />
