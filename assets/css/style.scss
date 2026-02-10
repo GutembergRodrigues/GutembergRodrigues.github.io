@@ -454,5 +454,25 @@ main{
 .dashboards-page__grid{
   margin-top: 0;
 }
+/* ===== Dashboards page (título + frase + espaço + cards) ===== */
+.dashboards-page .page-head{
+  text-align: center;
+  margin-bottom: 46px; /* espaço entre frase e cards */
+}
+
+.dashboards-page .page-subtitle{
+  max-width: 760px;       /* evita ficar muito largo */
+  margin: 0 auto;         /* centraliza o bloco */
+  text-align: center;      /* centraliza o texto */
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(0,0,0,.65);
+}
+
+/* Se quiser o grid dos cards exatamente abaixo com espaçamento bonito */
+.dashboards-page .dashboards-grid{
+  margin-top: 10px;
+}
+
 
 
