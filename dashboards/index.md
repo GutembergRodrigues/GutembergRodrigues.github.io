@@ -36,13 +36,13 @@ permalink: /dashboards/
 
           <!-- ✅ PÍLULAS (igual ao Card 1 da Home) -->
           <div class="project-card__tags">
-            <span class="pill">Excel</span>
-            <span class="pill">Tabelas Dinâmicas</span>
-            <span class="pill">Dashboard</span>
+            <span class="pill">API</span>
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
           </div>
 
           <div class="project-card__links">
-            <a class="plink" href="#" target="_blank" rel="noreferrer">
+            <a class="plink" href="https://app.powerbi.com/view?r=eyJrIjoiYzE4NTcxMzMtZmYxNC00ZWNjLTlhNmUtNWMxZmM4OTJkNjA4IiwidCI6IjhlODU5ZDIwLWMwNGEtNGJjNC05MjRjLTljMWRhMzIzMDhiMSJ9&pageName=cbe13d9d95a9edd6c0cc" target="_blank" rel="noreferrer">
               <i class="fa-solid fa-arrow-up-right-from-square"></i><span>Ver Dashboard</span>
             </a>
           </div>
