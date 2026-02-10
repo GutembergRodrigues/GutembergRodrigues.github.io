@@ -1,1 +1,52 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }} | {{ site.title }}</title>
 
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <div class="brand">{{ site.title }}</div>
+
+        <nav class="nav">
+          <a class="nav__link" href="{{ '/' | relative_url }}">Home</a>
+          <a class="nav__link" href="{{ '/dashboards/' | relative_url }}">Dashboards</a>
+          <a class="nav__link" href="{{ '/sobre/' | relative_url }}">Sobre</a>
+          <a class="nav__link" href="{{ '/contato/' | relative_url }}">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div class="site-footer__social">
+          <a class="site-footer__icon" href="https://www.linkedin.com/in/gutemberganalista/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a class="site-footer__icon" href="https://github.com/GutembergRodrigues" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a class="site-footer__icon" href="mailto:gutembergrodrigues07@gmail.com" aria-label="E-mail">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+        </div>
+
+        <div class="site-footer__copy">
+          © {{ "now" | date: "%Y" }} Gutemberg Rodrigues. Todos os direitos reservados.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
