@@ -28,10 +28,9 @@ permalink: /dashboards/
         </div>
 
         <div class="project-card__body">
-          <h3 class="project-card__title">Dashboard de Vendas e Performance</h3>
+          <h3 class="project-card__title">Dashboard Interativo Power BI Oscar 1928 - 2023</h3>
           <p class="project-card__desc">
-            Dashboard de análise de vendas por loja e turno, com KPIs de pedidos, receita e ticket médio.
-            Destaques para matriz de calor por hora/dia, evolução da receita e ranking de categorias e produtos.
+            Dashboard interativo voltado às premiações do Oscar, com o objetivo de apresentar e analisar informações como ano e número da cerimônia, Melhor Filme, Melhor Ator e Melhor Atriz, além de atributos dos filmes — gênero, duração, avaliações do IMDb e Rotten Tomatoes — e outras métricas relevantes, permitindo uma visão comparativa e detalhada ao longo dos anos.
           </p>
 
           <!-- ✅ PÍLULAS (igual ao Card 1 da Home) -->
