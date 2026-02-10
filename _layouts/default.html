@@ -19,7 +19,6 @@
       <div class="container topbar__inner">
         <div class="brand">{{ site.title }}</div>
 
-        <!-- ✅ CORREÇÃO: Sobre/Contato viram páginas -->
         <nav class="nav">
           <a class="nav__link is-active" href="{{ '/' | relative_url }}">Home</a>
           <a class="nav__link" href="{{ '/#dashboards' | relative_url }}">Dashboards</a>
@@ -37,53 +36,12 @@
 
           <div class="hero__actions">
             <a class="btn btn--light" href="{{ '/#dashboards' | relative_url }}">Ver Dashboards</a>
-
-            <!-- ✅ CORREÇÃO: botão agora aponta pra página /contato/ -->
             <a class="btn btn--dark" href="{{ '/contato/' | relative_url }}">Entre em Contato</a>
           </div>
         </div>
       </section>
 
-      <section class="section" id="ferramentas">
-        <div class="container">
-          <h2 class="section__title">Tecnologias</h2>
-          <div class="section__underline"></div>
-
-          <div class="grid">
-            <article class="card">
-              <div class="card__icon">📈</div>
-              <h3>Analytics & BI</h3>
-              <div class="tags">
-                <span class="tag">Power BI</span>
-                <span class="tag">Data Visualization</span>
-                <span class="tag">Storytelling</span>
-              </div>
-            </article>
-
-            <article class="card">
-              <div class="card__icon">💻</div>
-              <h3>Programação</h3>
-              <div class="tags">
-                <span class="tag">Python</span>
-                <span class="tag">R</span>
-                <span class="tag">SQL</span>
-              </div>
-            </article>
-
-            <article class="card">
-              <div class="card__icon">☁️</div>
-              <h3>Data Processing & Automation</h3>
-              <div class="tags">
-                <span class="tag">ETL</span>
-                <span class="tag">Excel</span>
-                <span class="tag">Power Automate</span>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- SECTION #DASHBOARDS -->
+      <!-- ✅ AGORA PRIMEIRO: PROJETOS -->
       <section class="section" id="dashboards">
         <div class="container">
           <h2 class="section__title">Projetos em Evidência</h2>
@@ -226,7 +184,45 @@
         </div>
       </section>
 
-      <!-- ✅ CORREÇÃO: removi as seções Sobre e Contato da HOME -->
+      <!-- ✅ AGORA EMBAIXO: TECNOLOGIAS -->
+      <section class="section" id="ferramentas">
+        <div class="container">
+          <h2 class="section__title">Tecnologias</h2>
+          <div class="section__underline"></div>
+
+          <div class="grid">
+            <article class="card">
+              <div class="card__icon">📈</div>
+              <h3>Analytics & BI</h3>
+              <div class="tags">
+                <span class="tag">Power BI</span>
+                <span class="tag">Data Visualization</span>
+                <span class="tag">Storytelling</span>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__icon">💻</div>
+              <h3>Programação</h3>
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">R</span>
+                <span class="tag">SQL</span>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__icon">☁️</div>
+              <h3>Data Processing & Automation</h3>
+              <div class="tags">
+                <span class="tag">ETL</span>
+                <span class="tag">Excel</span>
+                <span class="tag">Power Automate</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- FOOTER -->
