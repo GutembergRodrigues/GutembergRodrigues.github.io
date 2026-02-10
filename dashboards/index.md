@@ -4,16 +4,19 @@ title: Dashboards
 permalink: /dashboards/
 ---
 
-<section class="section dashboards-page">
+<section class="section dashboards-page" id="dashboards-page">
   <div class="container">
-    <h2 class="section__title">Dashboards</h2>
-    <div class="section__underline"></div>
 
-    <p class="dashboards-page__subtitle">
-      Dashboards interativos criados para diferentes setores e necessidades de negócio
-    </p>
+    <header class="page-head">
+      <h1 class="section__title">Dashboards</h1>
+      <div class="section__underline"></div>
 
-    <div class="projects dashboards-page__grid">
+      <p class="page-subtitle">
+        Dashboards interativos criados para diferentes setores e necessidades de negócio
+      </p>
+    </header>
+
+    <div class="projects dashboards-grid">
       <!-- Card 1 -->
       <article class="project-card">
         <div class="project-card__media">
@@ -39,7 +42,8 @@ permalink: /dashboards/
         </div>
       </article>
 
-      <!-- (se quiser mais, duplique o bloco do card acima) -->
+      <!-- Duplique para mais cards -->
     </div>
+
   </div>
 </section>
