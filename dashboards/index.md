@@ -34,6 +34,13 @@ permalink: /dashboards/
             Destaques para matriz de calor por hora/dia, evolução da receita e ranking de categorias e produtos.
           </p>
 
+          <!-- ✅ PÍLULAS (igual ao Card 1 da Home) -->
+          <div class="project-card__tags">
+            <span class="pill">Excel</span>
+            <span class="pill">Tabelas Dinâmicas</span>
+            <span class="pill">Dashboard</span>
+          </div>
+
           <div class="project-card__links">
             <a class="plink" href="#" target="_blank" rel="noreferrer">
               <i class="fa-solid fa-arrow-up-right-from-square"></i><span>Ver Dashboard</span>
