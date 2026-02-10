@@ -394,3 +394,21 @@ a{ color:inherit; text-decoration:none; }
 .project-card__links .fa-regular{
   font-family: "Font Awesome 6 Free" !important;
 }
+
+/* ===== AJUSTE DE ESPAÇAMENTO ENTRE "PROJETOS" -> "TECNOLOGIAS" ===== */
+
+/* diminui o espaço abaixo da seção de Projetos */
+.section#dashboards{
+  padding-bottom: 30px; /* antes era 80px */
+}
+
+/* diminui o espaço acima da seção de Tecnologias */
+.section#ferramentas{
+  padding-top: 30px; /* antes era 80px */
+}
+
+/* opcional: reduz um pouco o espaço do título/underline (se ainda ficar alto) */
+.section#ferramentas .section__underline{
+  margin-bottom: 28px; /* antes era 44px */
+}
+
