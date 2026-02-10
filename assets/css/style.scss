@@ -372,4 +372,15 @@ a{ color:inherit; text-decoration:none; }
   flex-wrap: wrap;
   width: 100%;
 }
+/* Corrige ícones de marca (LinkedIn, GitHub, Medium) dentro dos links dos cards */
+.project-card__links .fa-brands{
+  font-family: "Font Awesome 6 Brands" !important;
+  font-weight: 400 !important;
+}
+
+/* Mantém ícones solid funcionando normalmente */
+.project-card__links .fa-solid,
+.project-card__links .fa-regular{
+  font-family: "Font Awesome 6 Free" !important;
+}
 
