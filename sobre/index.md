@@ -68,7 +68,7 @@ permalink: /sobre/
 
     <div class="about-actions">
       <!-- Troque o href pro seu CV (PDF no repo ou link externo) -->
-      <a class="btn btn--light" href="#" target="_blank" rel="noreferrer">
+      <a class="btn btn--light" href="https://drive.google.com/file/d/1Bx__VZa0oWl0Mcdp9De6bL9smT02LU9Y/view?usp=sharing" target="_blank" rel="noreferrer">
         <i class="fa-solid fa-download" style="margin-right:8px;"></i>Download CV
       </a>
     </div>
