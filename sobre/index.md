@@ -43,25 +43,25 @@ permalink: /sobre/
     <div class="about-certs">
       <article class="about-cert">
         <div class="about-cert__icon"><i class="fa-solid fa-graduation-cap"></i></div>
-        <div class="about-cert__name">Engenharia de Produção</div>
+        <div class="about-cert__name">Ciência da Computação</div>
         <div class="about-cert__org">Sua Universidade</div>
       </article>
 
       <article class="about-cert">
-        <div class="about-cert__icon"><i class="fa-solid fa-chart-column"></i></div>
-        <div class="about-cert__name">Formação Power BI</div>
+        <div class="about-cert__icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="about-cert__name">Pós-graduação em Análise de Dados</div>
         <div class="about-cert__org">Sua Escola</div>
+      </article>
+
+      <article class="about-cert">
+        <div class="about-cert__icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="about-cert__name">Pós-graduação em Ciência de Dados</div>
+        <div class="about-cert__org">Google</div>
       </article>
 
       <article class="about-cert">
         <div class="about-cert__icon"><i class="fa-brands fa-google"></i></div>
         <div class="about-cert__name">Google Data Analytics</div>
-        <div class="about-cert__org">Google</div>
-      </article>
-
-      <article class="about-cert">
-        <div class="about-cert__icon"><i class="fa-brands fa-python"></i></div>
-        <div class="about-cert__name">Formação Data Science</div>
         <div class="about-cert__org">Sua Escola</div>
       </article>
     </div>
