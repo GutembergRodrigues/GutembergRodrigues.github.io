@@ -25,10 +25,8 @@ permalink: /sobre/
         <p>
           Sou natural de Sousa, no interior da Paraíba, cidade conhecida pelo Vale dos Dinossauros, que reúne milhares de pegadas fossilizadas. Tenho 27 anos, sou formado em Ciência da Computação pela Universidade Católica da Paraíba e concluí duas pós-graduações — em Análise de Dados e em Ciência de Dados — na Faculdade Anhanguera (São Paulo), com bolsa.
 
-          Trabalho com análise, visualização e modelagem de dados, atuando de ponta a ponta no ciclo de vida de projetos — desde a coleta até a manipulação, limpeza e pré-processamento. Realizo análises exploratórias para geração de insights com técnicas e modelos analíticos e desenvolvo relatórios, dashboards e apresentações com storytelling, comunicando resultados de forma clara para apoiar a tomada de decisão.
-
         </p>
-
+Trabalho com análise, visualização e modelagem de dados, atuando de ponta a ponta no ciclo de vida de projetos — desde a coleta até a manipulação, limpeza e pré-processamento. Realizo análises exploratórias para geração de insights com técnicas e modelos analíticos e desenvolvo relatórios, dashboards e apresentações com storytelling, comunicando resultados de forma clara para apoiar a tomada de decisão.
         <p>
          
         </p>
