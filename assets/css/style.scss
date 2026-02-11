@@ -605,6 +605,16 @@ main{
     grid-template-columns: 1fr;
   }
 }
+/* Botão Download CV - efeito de foco no hover */
+.about-actions .btn{
+  transition: transform .15s ease, box-shadow .15s ease, opacity .15s ease;
+}
+
+.about-actions .btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(0,0,0,.18);
+  opacity: 1;
+}
 
 
 
