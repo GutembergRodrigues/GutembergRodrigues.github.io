@@ -23,17 +23,16 @@ permalink: /sobre/
         <h2 class="about-hero__title">Olá! Sou o  Gutemberg Rodrigues 😊</h2>
 
         <p>
-          Analista de Dados, com experiência em transformar dados em insights e informações que realmente
-          impactam os resultados do negócio.
+          Sou natural de Sousa, no interior da Paraíba, cidade conhecida pelo Vale dos Dinossauros, que reúne milhares de pegadas fossilizadas. Tenho 27 anos, sou formado em Ciência da Computação pela Universidade Católica da Paraíba e concluí duas pós-graduações — em Análise de Dados e em Ciência de Dados — na Faculdade Anhanguera (São Paulo), com bolsa.
+
         </p>
 
         <p>
-          Atuo com análise, visualização e modelagem de dados, desde a coleta com Python e SQL até a
-          modelagem em nuvem e entrega de dashboards.
+         
         </p>
 
         <p>
-          Quer conversar sobre freelas, dados ou tech? Fique à vontade para entrar em contato!
+          
         </p>
       </div>
     </div>
