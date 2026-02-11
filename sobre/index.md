@@ -16,7 +16,6 @@ permalink: /sobre/
       <div class="about-hero__photo">
         <!-- troque o src pela sua foto (pode ser /assets/img/sua-foto.jpg) -->
         <img src="{{ '/assets/img/minha-foto.jpg' | relative_url }}" alt="Sua Foto">
-        <div class="about-hero__role">Data Analyst</div>
       </div>
 
       <!-- TEXTO -->
