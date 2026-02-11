@@ -12,7 +12,7 @@ permalink: /dashboards/
       <div class="section__underline"></div>
 
       <p class="page-subtitle">
-        Dashboards interativos criados para diferentes setores e necessidades de negócio
+        
       </p>
     </header>
 
@@ -22,13 +22,13 @@ permalink: /dashboards/
         <div class="project-card__media">
           <img
             src="https://unsplash.com/photos/9QadD02QrPw/download?force=true&w=1200"
-            alt="Dashboard de Vendas e Performance"
+            alt="Dashboard Power BI Oscar 1928 - 2023"
             loading="lazy"
           />
         </div>
 
         <div class="project-card__body">
-          <h3 class="project-card__title">Dashboard Interativo Power BI Oscar 1928 - 2023</h3>
+          <h3 class="project-card__title">Dashboard Power BI Oscar 1928 - 2023</h3>
           <p class="project-card__desc">
             Dashboard interativo voltado às premiações do Oscar, com o objetivo de apresentar e analisar informações como ano e número da cerimônia, Melhor Filme, Melhor Ator e Melhor Atriz, além de atributos dos filmes — gênero, duração, avaliações do IMDb e Rotten Tomatoes — e outras métricas relevantes, permitindo uma visão comparativa e detalhada ao longo dos anos.
           </p>
