@@ -16,13 +16,12 @@ permalink: /sobre/
       <div class="about-hero__photo">
         <!-- troque o src pela sua foto (pode ser /assets/img/sua-foto.jpg) -->
         <img src="{{ '/assets/img/minha-foto.jpg' | relative_url }}" alt="Sua Foto">
-        <div class="about-hero__name">Seu Nome</div>
-        <div class="about-hero__role">Data Analyst & BI Specialist</div>
+        <div class="about-hero__role">Data Analyst</div>
       </div>
 
       <!-- TEXTO -->
       <div class="about-hero__text">
-        <h2 class="about-hero__title">Olá! Sou o Seu Nome 😊</h2>
+        <h2 class="about-hero__title">Olá! Sou o  Gutemberg Rodrigues 😊</h2>
 
         <p>
           Analista de Dados, com experiência em transformar dados em insights e informações que realmente
