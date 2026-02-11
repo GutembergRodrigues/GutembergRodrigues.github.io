@@ -44,25 +44,25 @@ permalink: /sobre/
       <article class="about-cert">
         <div class="about-cert__icon"><i class="fa-solid fa-graduation-cap"></i></div>
         <div class="about-cert__name">Ciência da Computação</div>
-        <div class="about-cert__org">Sua Universidade</div>
+        <div class="about-cert__org">Faculdade Católica da Paraíba</div>
       </article>
 
       <article class="about-cert">
         <div class="about-cert__icon"><i class="fa-solid fa-graduation-cap"></i></div>
         <div class="about-cert__name">Pós-graduação em Análise de Dados</div>
-        <div class="about-cert__org">Sua Escola</div>
+        <div class="about-cert__org">Faculdade Anhanguera São Paulo</div>
       </article>
 
       <article class="about-cert">
         <div class="about-cert__icon"><i class="fa-solid fa-graduation-cap"></i></div>
         <div class="about-cert__name">Pós-graduação em Ciência de Dados</div>
-        <div class="about-cert__org">Google</div>
+        <div class="about-cert__org">Faculdade Anhanguera São Paulo</div>
       </article>
 
       <article class="about-cert">
         <div class="about-cert__icon"><i class="fa-brands fa-google"></i></div>
         <div class="about-cert__name">Google Data Analytics</div>
-        <div class="about-cert__org">Sua Escola</div>
+        <div class="about-cert__org">Google</div>
       </article>
     </div>
 
