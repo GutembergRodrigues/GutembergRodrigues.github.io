@@ -15,7 +15,7 @@ permalink: /sobre/
       <!-- FOTO -->
       <div class="about-hero__photo">
         <!-- troque o src pela sua foto (pode ser /assets/img/sua-foto.jpg) -->
-        <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&fm=jpg&q=80&w=600" alt="Foto de perfil" />
+        <img src="{{ '/assets/img/minha-foto.jpg' | relative_url }}" alt="Sua Foto">
         <div class="about-hero__name">Seu Nome</div>
         <div class="about-hero__role">Data Analyst & BI Specialist</div>
       </div>
