@@ -21,17 +21,29 @@
 
         <!-- ✅ MENU COM is-active AUTOMÁTICO -->
         <nav class="nav">
-          <a class="nav__link {% if page.url == '/' %}is-active{% endif %}"
-             href="{{ '/' | relative_url }}">Home</a>
+          <a
+            class="nav__link {% if page.url == '/' %}is-active{% endif %}"
+            href="{{ '/' | relative_url }}"
+            >Home</a
+          >
 
-          <a class="nav__link {% if page.url contains '/dashboards/' %}is-active{% endif %}"
-             href="{{ '/dashboards/' | relative_url }}">Dashboards</a>
+          <a
+            class="nav__link {% if page.url contains '/dashboards' %}is-active{% endif %}"
+            href="{{ '/dashboards/' | relative_url }}"
+            >Dashboards</a
+          >
 
-          <a class="nav__link {% if page.url contains '/sobre/' %}is-active{% endif %}"
-             href="{{ '/sobre/' | relative_url }}">Sobre</a>
+          <a
+            class="nav__link {% if page.url contains '/sobre' %}is-active{% endif %}"
+            href="{{ '/sobre/' | relative_url }}"
+            >Sobre</a
+          >
 
-          <a class="nav__link {% if page.url contains '/contato/' %}is-active{% endif %}"
-             href="{{ '/contato/' | relative_url }}">Contato</a>
+          <a
+            class="nav__link {% if page.url contains '/contato' %}is-active{% endif %}"
+            href="{{ '/contato/' | relative_url }}"
+            >Contato</a
+          >
         </nav>
       </div>
     </header>
@@ -43,15 +55,31 @@
     <footer class="site-footer">
       <div class="site-footer__inner">
         <div class="site-footer__social">
-          <a class="site-footer__icon" href="https://www.linkedin.com/in/gutemberganalista/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <a
+            class="site-footer__icon"
+            href="https://www.linkedin.com/in/gutemberganalista/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
 
-          <a class="site-footer__icon" href="https://github.com/GutembergRodrigues" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <a
+            class="site-footer__icon"
+            href="https://github.com/GutembergRodrigues"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
 
-          <a class="site-footer__icon" href="mailto:gutembergrodrigues07@gmail.com" aria-label="E-mail">
+          <a
+            class="site-footer__icon"
+            href="mailto:gutembergrodrigues07@gmail.com"
+            aria-label="E-mail"
+          >
             <i class="fa-regular fa-envelope"></i>
           </a>
         </div>
