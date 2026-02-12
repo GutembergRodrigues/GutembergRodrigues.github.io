@@ -10,9 +10,7 @@ permalink: /contato/
       <h1 class="section__title">Entre em Contato</h1>
       <div class="section__underline"></div>
 
-      <p class="page-subtitle">
-        Vamos conversar sobre seu próximo projeto de dados
-      </p>
+      
     </header>
 
     <div class="contact-center">
