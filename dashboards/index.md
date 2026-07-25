@@ -16,8 +16,9 @@ permalink: /dashboards/
   <!-- Card 1 -->
   <article class="project-card">
 
-    <div class="project-card__media project-card__media--oscar">
+    <div class="project-card__media">
       <img
+        class="project-card__image--oscar"
         src="https://unsplash.com/photos/9QadD02QrPw/download?force=true&w=1200"
         alt="Dashboard Power BI Oscar 1928 - 2023"
         loading="lazy"
@@ -63,16 +64,15 @@ permalink: /dashboards/
 </div>
 
 <style>
-  .project-card__media--oscar {
-    background-color: #050505;
-    overflow: hidden;
-  }
-
-  .project-card__media--oscar img {
+  /*
+    Ajusta somente o enquadramento da foto.
+    O tamanho do card e da área da imagem não é alterado.
+  */
+  .project-card__image--oscar {
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    object-position: center;
+    object-fit: cover;
+    object-position: center 15%;
     display: block;
   }
 </style>
