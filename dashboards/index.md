@@ -79,16 +79,11 @@ permalink: /dashboards/
         <div class="project-card__body">
 
           <h3 class="project-card__title">
-            Dashboard Power BI Oscar 1928 - 2023
+            Dashboard Power BI Formula 1 1950-2024
           </h3>
 
           <p class="project-card__desc">
-            Dashboard interativo voltado às premiações do Oscar, com o objetivo
-            de apresentar e analisar informações como ano e número da cerimônia,
-            Melhor Filme, Melhor Ator e Melhor Atriz, além de atributos dos filmes
-            — gênero, duração, avaliações do IMDb e Rotten Tomatoes — e outras
-            métricas relevantes, permitindo uma visão comparativa e detalhada
-            ao longo dos anos.
+           Dashboard interativo de Fórmula 1, desenvolvido para apresentar e analisar dados históricos sobre temporadas, pilotos, equipes e circuitos, incluindo indicadores como vitórias, pole positions, pódios, pontuações e desempenho ao longo das corridas. A solução permite comparar resultados, identificar padrões e acompanhar a evolução da principal categoria do automobilismo mundial ao longo dos anos.
           </p>
 
           <div class="project-card__tags">
