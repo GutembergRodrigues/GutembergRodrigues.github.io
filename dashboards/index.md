@@ -11,14 +11,13 @@ permalink: /dashboards/
   <p class="page-subtitle"></p>
 </header>
 
-<div class="projects">
+<div class="projects dashboards-grid">
 
   <!-- Card 1 -->
   <article class="project-card">
 
     <div class="project-card__media">
       <img
-        class="project-card__image--oscar"
         src="https://unsplash.com/photos/9QadD02QrPw/download?force=true&w=1200"
         alt="Dashboard Power BI Oscar 1928 - 2023"
         loading="lazy"
@@ -32,14 +31,15 @@ permalink: /dashboards/
       </h3>
 
       <p class="project-card__desc">
-        Dashboard interativo voltado às premiações do Oscar, com o objetivo
-        de apresentar e analisar informações como ano e número da cerimônia,
+        Dashboard interativo voltado às premiações do Oscar, com o objetivo de
+        apresentar e analisar informações como ano e número da cerimônia,
         Melhor Filme, Melhor Ator e Melhor Atriz, além de atributos dos filmes
         — gênero, duração, avaliações do IMDb e Rotten Tomatoes — e outras
-        métricas relevantes, permitindo uma visão comparativa e detalhada
-        ao longo dos anos.
+        métricas relevantes, permitindo uma visão comparativa e detalhada ao
+        longo dos anos.
       </p>
 
+      <!-- Pílulas -->
       <div class="project-card__tags">
         <span class="pill">API</span>
         <span class="pill">HTML</span>
@@ -61,18 +61,6 @@ permalink: /dashboards/
     </div>
   </article>
 
-</div>
+  <!-- Duplique o article para adicionar mais cards -->
 
-<style>
-  /*
-    Ajusta somente o enquadramento da foto.
-    O tamanho do card e da área da imagem não é alterado.
-  */
-  .project-card__image--oscar {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center 15%;
-    display: block;
-  }
-</style>
+</div>
