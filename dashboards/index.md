@@ -1,3 +1,9 @@
+---
+layout: clean
+title: Dashboards
+permalink: /dashboards/
+---
+
 <header class="page-head">
   <h1 class="section__title">Dashboards</h1>
   <div class="section__underline"></div>
@@ -15,13 +21,7 @@
         src="https://unsplash.com/photos/9QadD02QrPw/download?force=true&w=1200"
         alt="Dashboard Power BI Oscar 1928 - 2023"
         loading="lazy"
-        style="
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          object-position: center 20%;
-          display: block;
-        "
+        style="object-position: center 20%;"
       />
     </div>
 
