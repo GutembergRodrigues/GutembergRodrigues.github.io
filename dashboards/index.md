@@ -95,7 +95,7 @@ permalink: /dashboards/
           <div class="project-card__links">
             <a
               class="plink"
-              href="https://app.powerbi.com/view?r=eyJrIjoiYWIzNjY0ZjktZTllMy00YjVlLWI0ZmQtNmY5M2I2NWJjOTViIiwidCI6IjhlNTIxMGI4LTQ1MzQtNGE1Ny05ODBkLWYxZTdkOGQ0MjVkYiJ9"
+              href="https://app.powerbi.com/view?r=eyJrIjoiZWE5YTBiNmMtMzYwOC00ZTY1LWIyYTItNTgyYWUwOGQ4MTUxIiwidCI6IjhlNTIxMGI4LTQ1MzQtNGE1Ny05ODBkLWYxZTdkOGQ0MjVkYiJ9"
               target="_blank"
               rel="noreferrer"
             >
