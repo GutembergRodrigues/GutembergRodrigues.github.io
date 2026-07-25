@@ -60,10 +60,10 @@
 
     <div class="project-card__media">
       <img
-        src="https://unsplash.com/photos/9mPO2Rf3ryg/download?force=true&w=1200"
-        alt="Carro de Fórmula 1 em uma pista de corrida"
+        src="https://unsplash.com/photos/9QadD02QrPw/download?force=true&w=1200"
+        alt="Dashboard Power BI Fórmula 1 1950 - 2024"
         loading="lazy"
-        style="object-position: center center;"
+        style="object-position: center 15%;"
       />
     </div>
 
