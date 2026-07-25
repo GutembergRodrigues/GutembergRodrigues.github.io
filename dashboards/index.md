@@ -19,24 +19,13 @@ permalink: /dashboards/
       <!-- Card 1 -->
       <article class="project-card">
 
-        <div class="project-card__media project-card__media--oscar">
-
-          <!-- Fundo ampliado para preencher toda a área -->
+        <div class="project-card__media">
           <img
-            class="project-card__image-background"
-            src="https://unsplash.com/photos/9QadD02QrPw/download?force=true&w=1200"
-            alt=""
-            aria-hidden="true"
-          />
-
-          <!-- Imagem principal completa, sem cortes -->
-          <img
-            class="project-card__image-main"
             src="https://unsplash.com/photos/9QadD02QrPw/download?force=true&w=1200"
             alt="Dashboard Power BI Oscar 1928 - 2023"
             loading="lazy"
+            style="object-position: center top;"
           />
-
         </div>
 
         <div class="project-card__body">
@@ -78,45 +67,3 @@ permalink: /dashboards/
     </div>
   </div>
 </section>
-
-<style>
-  /*
-    Mantém exatamente o tamanho original da área da imagem.
-    Nenhuma largura ou altura do card é alterada.
-  */
-  .project-card__media--oscar {
-    position: relative;
-    overflow: hidden;
-    background-color: #000;
-  }
-
-  /*
-    Imagem usada apenas como fundo.
-    Ela preenche toda a área e recebe desfoque.
-  */
-  .project-card__image-background {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    transform: scale(1.12);
-    filter: blur(14px);
-    opacity: 0.7;
-  }
-
-  /*
-    Imagem principal completa.
-    O contain impede qualquer corte.
-  */
-  .project-card__image-main {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
-    display: block;
-  }
-</style>
