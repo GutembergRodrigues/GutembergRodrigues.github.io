@@ -24,7 +24,7 @@ permalink: /dashboards/
             src="https://unsplash.com/photos/9QadD02QrPw/download?force=true&w=1200"
             alt="Dashboard Power BI Oscar 1928 - 2023"
             loading="lazy"
-            style="object-position: center top;"
+            style="object-position: center 15%;"
           />
         </div>
 
